@@ -139,8 +139,7 @@ class MainFrame(wx.Frame):
 				if y == dictionaries.FieldUnitType.PARTICLE:
 					if x == 0:
 						self.default_particle_function = dictionaries.unitTables[y][x].npcFunc
-						print("Founnt it")
-						input()
+						print("Found it")
 			self.nb.GetPage(y).InitTable()
 
 		print(hex(self.default_particle_function))
